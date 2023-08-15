@@ -86,14 +86,20 @@ int main () {
     
     i = a ;
     while(i<=b) {
-    	int j = 1 ;
+    	
+        int j = 1 ;
         while(j<=9){
             printf( "%d x %d = %d\n", i, j, i*j) ;
             if(j==9){
                 printf( "\n") ;
             }//end if
-            j++ ;             
+            j++ ;           
         }//end while
         i++ ;        
     }//end while
+
+    return 0 ;
+
+
+
 }//end main fuction
